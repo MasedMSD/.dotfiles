@@ -1,0 +1,76 @@
+{
+	"workbench.sideBar.location": "right",
+	"workbench.iconTheme": "eq-material-theme-icons-darker",
+	"workbench.colorTheme": "Default Dark Modern",
+
+	"terminal.integrated.gpuAcceleration": "off",
+
+	"git.openRepositoryInParentFolders": "always",
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+
+	"window.zoomLevel": 1.2,
+	"window.titleBarStyle": "custom",
+	"window.menuBarVisibility": "compact",
+
+	"editor.fontFamily": "Consolas, 'CaskaydiaMono Nerd Font Mono'",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+
+	"jsdoc-generator.includeDate": false,
+	"jsdoc-generator.includeTime": false,
+
+	"discord.removeRemoteRepository": true,
+	"discord.detailsEditing": "📃┆{file_name}",
+	"discord.lowerDetailsEditing": "📂┆{workspace}",
+
+	"importSorter.importStringConfiguration.tabType": "tab",
+	"importSorter.sortConfiguration.customOrderingRules.defaultNumberOfEmptyLinesAfterGroup": 1,
+	"importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 120,
+	"importSorter.generalConfiguration.sortOnBeforeSave": true,
+	"importSorter.sortConfiguration.customOrderingRules.rules": [
+		{
+			"type": "importMember",
+			"regex": "^$",
+			"orderLevel": 5,
+			"disableSort": true
+		},
+		{
+			"regex": "^[^.@]",
+			"orderLevel": 10,
+			"disableSort": false
+		},
+		{
+			"regex": "^@(?!/)",
+			"orderLevel": 15,
+			"disableSort": false
+		},
+		{
+			"regex": "^@(/)",
+			"orderLevel": 20,
+			"disableSort": false
+		},
+		{
+			"regex": "^[.]",
+			"orderLevel": 25,
+			"disableSort": false
+		}
+	],
+
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/bun.lockb": true,
+		"**/CHANGELOG.md": true,
+		"**/LICENSE": true,
+		"**/CODE_OF_CONDUCT.md": true
+	},
+
+	"typescript.updateImportsOnFileMove.enabled": "never",
+	"[dockerfile]": { "editor.defaultFormatter": "ms-azuretools.vscode-docker" },
+	"[prisma]": { "editor.defaultFormatter": "Prisma.prisma" }
+}
