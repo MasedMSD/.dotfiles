@@ -18,6 +18,7 @@ VSCODE=code
 
 zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
+zstyle ':omz:plugins:yarn' global-path no
 
 plugins=(
     git
@@ -28,6 +29,7 @@ plugins=(
     zsh-autocomplete
     bun
 	vscode
+    yarn
 )
 
 source $ZSH/oh-my-zsh.sh
