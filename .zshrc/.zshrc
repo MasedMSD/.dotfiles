@@ -30,6 +30,7 @@ plugins=(
     bun
 	vscode
     yarn
+    ubuntu
 )
 
 source $ZSH/oh-my-zsh.sh
