@@ -1,5 +1,3 @@
-source $ZSH/oh-my-zsh.sh
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export BUN_INSTALL="/home/mased/.bun"
@@ -16,7 +14,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 ZSH_THEME="headline"
-VSCODE=code-insiders
+VSCODE=code
 
 zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
@@ -31,3 +29,5 @@ plugins=(
     bun
 	vscode
 )
+
+source $ZSH/oh-my-zsh.sh
