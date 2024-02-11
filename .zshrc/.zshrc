@@ -1,4 +1,3 @@
-# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export BUN_INSTALL="/home/mased/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
@@ -28,7 +27,7 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autocomplete
     bun
-	vscode
+    vscode
     yarn
     ubuntu
 )
