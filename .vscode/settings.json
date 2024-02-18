@@ -2,7 +2,7 @@
 	// Workbench
 	"workbench.sideBar.location": "right",
 	"workbench.colorTheme": "Ayu Dark Bordered",
-	"workbench.iconTheme": "eq-material-theme-icons-darker",
+	"workbench.iconTheme": "catppuccin-mocha",
 	"workbench.activityBar.location": "top",
 	"workbench.editor.showTabs": "multiple",
 	"workbench.tree.enableStickyScroll": true,
@@ -67,4 +67,75 @@
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+}{
+	// Workbench
+	"workbench.sideBar.location": "right",
+	"workbench.colorTheme": "Ayu Dark Bordered",
+	"workbench.iconTheme": "catppuccin-mocha",
+	"workbench.activityBar.location": "top",
+	"workbench.editor.showTabs": "multiple",
+	"workbench.tree.enableStickyScroll": true,
+	// Terminal
+	"terminal.integrated.gpuAcceleration": "off",
+	"terminal.integrated.mouseWheelZoom": true,
+	// Git
+	"git.openRepositoryInParentFolders": "always",
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	// Explorer
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	// Window
+	"window.zoomLevel": 1.2,
+	"window.titleBarStyle": "custom",
+	"window.menuBarVisibility": "compact",
+	// Editor
+	"editor.fontFamily": "Consolas, 'CaskaydiaMono Nerd Font Mono'",
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.formatOnSave": true,
+	"editor.folding": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports.biome": "explicit"
+	},
+	// Discord RPC
+	"discord.removeRemoteRepository": true,
+	"discord.detailsEditing": "📃┆{file_name}",
+	"discord.lowerDetailsEditing": "📂┆{dir_name}",
+	// Other
+	"typescript.updateImportsOnFileMove.enabled": "never",
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/bun.lockb": true,
+	},
+	"redhat.telemetry.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"biome_lsp.trace.server": "messages",
+	// Formatters
+	"[dockerfile]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
 }
