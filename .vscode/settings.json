@@ -1,11 +1,11 @@
 {
 	// Workbench
 	"workbench.sideBar.location": "right",
-	"workbench.colorTheme": "Ayu Dark Bordered",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"workbench.iconTheme": "catppuccin-mocha",
-	"workbench.activityBar.location": "top",
 	"workbench.editor.showTabs": "multiple",
 	"workbench.tree.enableStickyScroll": true,
+	"workbench.activityBar.location": "top",
 	// Terminal
 	"terminal.integrated.gpuAcceleration": "off",
 	"terminal.integrated.mouseWheelZoom": true,
@@ -25,7 +25,7 @@
 	"editor.fontWeight": "500",
 	"editor.fontSize": 14,
 	"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
-	"editor.defaultFormatter": "biomejs.biome",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"editor.folding": false,
 	"editor.smoothScrolling": true,
@@ -36,7 +36,7 @@
 	"editor.insertSpaces": false,
 	"editor.tabSize": 4,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports.biome": "explicit"
+		"source.organizeImports": "explicit"
 	},
 	// Discord RPC
 	"discord.removeRemoteRepository": true,
@@ -46,28 +46,6 @@
 	"typescript.updateImportsOnFileMove.enabled": "never",
 	"files.exclude": {
 		"**/node_modules": true,
-		"**/bun.lockb": true,
-	},
-	"redhat.telemetry.enabled": false,
-	"security.workspace.trust.untrustedFiles": "open",
-	"biome_lsp.trace.server": "messages",
-	// Formatters
-	"[dockerfile]": {
-		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"[prisma]": {
-		"editor.defaultFormatter": "Prisma.prisma"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
+		"**/bun.lockb": true
 	},
 }
